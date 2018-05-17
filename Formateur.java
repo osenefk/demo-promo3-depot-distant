@@ -19,7 +19,7 @@ public class Formateur{
 	
 	public String getPrenom(){
 		
-		return this.prenim;
+		return this.prenom;
 	}
 	public String getEmail(){
 		
@@ -29,6 +29,27 @@ public class Formateur{
 		
 		return this.anneExperience;
 	}
+	
+	//Modificateurs des propriétes
+	
+	public void setPrenom( String prenom){
+		this.prenom= prenom;
+		
+	}
+	
+	public void setEmail( String email){
+		this.email= email;
+		
+	}
+	
+	
+	public void setAnneeExperience(int a){
+		
+		this.anneExperience=a;
+	}
+	
+	
+}
 	
 	
 }
