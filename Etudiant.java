@@ -9,6 +9,11 @@ public class Etudiant{
 	public Etudiant(){
 		
 	}
+	
+	public Etudiant(String nom){
+		this.nom=nom;
+		
+	}
 	public String getNom(){
 		return this.nom;
 		
