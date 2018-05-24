@@ -29,6 +29,12 @@ public class Formateur{
 		
 		return this.anneExperience;
 	}
+	// Je viens apporté des modification à la classe étudiant
+	
+	public double moyenFormateur(double noteFormateur)
+	{
+		system.out.println("Juste un test");
+	}
 	
 	
 }
