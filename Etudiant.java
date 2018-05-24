@@ -14,6 +14,12 @@ public class Etudiant{
 		this.nom=nom;
 		
 	}
+	
+	//Constructeur avec deux paramètres
+	public Etudiant(String nom,String prenom){
+		this.nom=nom;
+		this.prenom=prenom;
+	}
 	public String getNom(){
 		return this.nom;
 		
