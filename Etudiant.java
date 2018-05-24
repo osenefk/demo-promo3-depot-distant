@@ -6,14 +6,22 @@ public class Etudiant{
 	
 	private String email;
 	
+	// Constructeurs
 	public Etudiant(){
 		
 	}
 	
 	public Etudiant(String nom){
 		this.nom=nom;
-		
 	}
+	
+	public Etudiant(String nom, String prenom, String email){
+		this.nom=nom;
+		this.prenom=prenom;
+		this.email=email;
+	}
+	
+	// Getters
 	public String getNom(){
 		return this.nom;
 		
